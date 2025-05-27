@@ -4,7 +4,6 @@
 # Audio
 vendor/etc/dolby/dax-default.xml
 vendor/etc/floating_feature.xml
-vendor/lib/libfloatingfeature.so
 vendor/lib/librecordalive.so
 vendor/lib/lib_SamsungRec_07020.so
 vendor/lib/libsecaudioinfo.so
@@ -99,5 +98,3 @@ vendor/firmware/qca6390/bdwlan.elf2
 vendor/firmware/qca6390/m3.bin
 vendor/firmware/qca6390/regdb.bin
 vendor/firmware/wlan/qcom_cfg.ini
-vendor/lib/libcld80211.so
-vendor/lib64/libcld80211.so

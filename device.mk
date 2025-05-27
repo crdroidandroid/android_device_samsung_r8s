@@ -26,8 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth.a2dp@1.0.vendor
+    android.hardware.bluetooth@1.0.vendor
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
@@ -45,10 +44,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
-    sensors.samsung
+    sensors.r8s
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH) hardware/qcom/wlan/legacy hardware/samsung_slsi-linaro/exynos/gralloc/gralloc3
 
 # Inherit from common
 $(call inherit-product, device/samsung/universal9830-common/device-common.mk)

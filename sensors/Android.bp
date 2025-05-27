@@ -5,7 +5,7 @@
 //
 
 cc_library_shared {
-    name: "sensors.samsung",
+    name: "sensors.r8s",
     defaults: ["hidl_defaults"],
     srcs: [
         "Sensor.cpp",
