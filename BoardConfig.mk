@@ -29,7 +29,7 @@ QCOM_BT_USE_SMD_TTY := true
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos9830-r8slte_defconfig
+TARGET_KERNEL_CONFIG := extreme-r8s_defconfig
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := r8s
